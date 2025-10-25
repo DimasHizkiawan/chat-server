@@ -34,19 +34,22 @@ Perfect for sending messages and temporary files securely across devices connect
 ```bash
 git clone https://github.com/DimasHizkiawan/chat-server.git
 cd chat-server
+```
 2. Get dependencies
-bash
+```bash
 Copy code
 dart pub get
+```
 3. Run the server
-bash
+```bash
 Copy code
 dart run
+```
 Server will start at:
-
-perl
+```perl
 Copy code
 http://<your-local-ip>:8080
+```
 📱 Connect via Flutter App
 On your mobile device (connected to the same Wi-Fi):
 
