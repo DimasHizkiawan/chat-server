@@ -30,7 +30,7 @@ Perfect for sending messages and temporary files securely across devices connect
 
 ## 📦 Installation
 
-### 1. Clone this repository
+ 1. Clone this repository
 ```bash
 git clone https://github.com/DimasHizkiawan/chat-server.git
 cd chat-server
@@ -39,15 +39,16 @@ cd chat-server
 ```bash
 dart pub get
 ```
-3. Run the server
+ 3. Run the server
 ```bash
 dart run
 ```
-Server will start at:
+### Server will start at:
 ```perl
 http://<your-local-ip>:8080
 ```
 📱 Connect via Flutter App
+```
 On your mobile device (connected to the same Wi-Fi):
 
 Open the Flutter client.
@@ -55,23 +56,25 @@ Open the Flutter client.
 Enter the IP address shown on the server (example: 192.168.0.101:8080).
 
 Start chatting instantly.
-
+```
 🧩 Commands
+```
 Command	Description
 /editpass <newpass>	Set or change the server password (only available to owner)
 /help	Show available commands (planned feature)
-
+```
 ⚙️ Folder Structure
-graphql
-Copy code
+
+```graphql
 chat-server/
-├── bin/
-│   └── server.dart        # Main server entry point
 ├── lib/
-│   └── handlers.dart      # Request and WebSocket handlers
+│   └── main.dart          # Request and WebSocket handlers
+│   └── local_server.dart  # Main server entry point
 ├── pubspec.yaml           # Dependencies
 └── README.md
+```
 🧠 Future Improvements
+```
 Persistent chat logs
 
 User authentication
@@ -79,11 +82,14 @@ User authentication
 File size limit settings
 
 Web interface dashboard
+```
 
 💻 Developed by
+```
 Dimas Hizkiawan
-🎓 SMK N 5 Surakarta – Software Engineering (PPLG)
+🎓 SMK N 5 Surakarta – Software Engineering (RPL)
 🛠️ Passionate about building simple, elegant, and practical solutions.
 
 🧡 "Built for local simplicity, secured for everyone."
 © 2025 DimasHizkiawan Project
+```
