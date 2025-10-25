@@ -37,17 +37,14 @@ cd chat-server
 ```
 2. Get dependencies
 ```bash
-Copy code
 dart pub get
 ```
 3. Run the server
 ```bash
-Copy code
 dart run
 ```
 Server will start at:
 ```perl
-Copy code
 http://<your-local-ip>:8080
 ```
 📱 Connect via Flutter App
