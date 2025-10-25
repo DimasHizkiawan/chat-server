@@ -10,7 +10,7 @@ Perfect for sending messages and temporary files securely across devices connect
 ✅ **Send & Receive Messages** — Real-time message delivery with WebSocket.  
 📁 **File Transfer** — Share files easily within the same network.  
 🧹 **Auto-Cleanup** — Messages and files are automatically deleted when the app closes.  
-🔐 **Password Protection** — Use `/setpass` to lock your server with a custom password.  
+🔐 **Password Protection** — Use `/editpass` to lock your server with a custom password.  
 📡 **Device Detection** — Displays connected devices and their IP addresses.  
 📋 **Copy & Download Support** — Users can copy messages or download files directly.  
 ⚡ **Lightweight & Fast** — Built with pure Dart server backend.
